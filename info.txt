@@ -37,3 +37,5 @@ https://goodbrief.io ==> générateur de Projet
 https://www.pexels.com/fr-fr/ ==> images
 
 https://colorhunt.co/palettes/yellow-gold ==> charte graphique
+
+https://fontawesome.com ==> icon
