@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ********************************** Charte graphique *********************************** */
+
+:root{
+    --background:#FFC94A;
+    --background_2:#FEFFD2;
+    --texte: aliceblue;
+    --color_0:#FF4C4C;
+    --color_1:#FFB22C;
+    --color_2:#FFDE4D;
+    --color_3: #F3FEB8;
+}
+
