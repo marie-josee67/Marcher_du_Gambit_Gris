@@ -7,12 +7,18 @@
 /* ********************************** Charte graphique *********************************** */
 
 :root{
-    --background:#FFC94A;
-    --background_2:#FEFFD2;
+    --background:#f8cd69;
+    --background_2:#cccccc;
     --texte: rgb(248, 245, 236);
     --color_0:#FF4C4C;
     --color_1:#FFB22C;
     --color_2:#FFDE4D;
     --color_3: #F3FEB8;
+}
+
+/* ********************* standard ******************* */
+body{
+    background-color: var(--background_2);
+    margin-left: 10px;
 }
 
