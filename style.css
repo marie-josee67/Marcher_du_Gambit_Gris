@@ -7,8 +7,9 @@
 /* ********************************** Charte graphique *********************************** */
 
 :root{
-    --background:#f8cd69;
-    --background_2:#cccccc;
+    --background:#f8cd69d8;
+    --background_2:#a19d9d;
+    --nav:#a19d9d50;
     --texte: rgb(248, 245, 236);
     --color_0:#FF4C4C;
     --color_1:#FFB22C;
@@ -20,5 +21,49 @@
 body{
     background-color: var(--background_2);
     margin-left: 10px;
+    color: var(--texte);
 }
 
+
+/* la barre de navigation entière */
+nav{
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 0 20px;
+    position: fixed;
+    width: 100%;
+    background-color: var(--nav);
+    color: var(--color_3);
+    /*border: 2px solid orangered;*/
+}
+
+/* la barre de navigation page */
+
+.page{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*border: 2px dashed blue;*/
+}
+
+.page a {
+    color: var(--texte);
+    text-decoration: none;
+    padding: 5px;
+    /*border: 2px solid green;*/
+}
+
+/* passage de la souris */
+.page a:hover{
+    border-radius: 5px;
+    background-color: var(--background);
+}
+
+/* la barre de navigation le burger */
+
+main{
+    padding-top:50px;
+}
