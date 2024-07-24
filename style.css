@@ -8,13 +8,15 @@
 
 :root{
     --background:#f8cd69d8;
+    --background_1:#ebae08;
     --background_2:#a19d9d;
     --nav:#a19d9d50;
-    --texte: rgb(248, 245, 236);
-    --color_0:#FF4C4C;
+    --texte: rgb(2, 2, 2);
+    --color_0:#e95a5a;
     --color_1:#FFB22C;
     --color_2:#FFDE4D;
     --color_3: #F3FEB8;
+    --color_4:black;
 }
 
 /* ********************* standard ******************* */
@@ -59,11 +61,85 @@ nav{
 /* passage de la souris */
 .page a:hover{
     border-radius: 5px;
-    background-color: var(--background);
+    background-color: var(--background_1);
 }
 
 /* la barre de navigation le burger */
-
 main{
     padding-top:50px;
+}
+
+/* toute les images du site */
+img{
+    width: 300px;
+    height: 375px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px var(--color_0);
+    /*border: thick double #32a1ce;*/
+}
+
+p{
+    font-size: 20px;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: var(--color_1);
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+footer{
+    text-align: center;
+    margin: 10px;
+    text-decoration: overline var(--color_4);
+}
+
+/* ******************************************* Accueil ************************************** */
+.image{
+    float: left;
+    margin: 10px 10px 10px 0;
+    /*border: 2px dashed darkorchid;*/
+}
+
+.equipeBis{
+    width: 75%;
+    height: 400px;
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    padding-right: 10px;
+    /*border: 2px solid brown;*/
+}
+
+.appel{
+    clear: left;
+}
+
+.appel {
+    text-align: center;
+}
+
+/* le bouton appel */
+button {
+    background-color:var(--background_1);
+    border: none;
+    color: var(--texte);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+button i {
+    font-size: 16px;
 }
