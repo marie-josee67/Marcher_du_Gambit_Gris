@@ -78,6 +78,12 @@ img{
     /*border: thick double #32a1ce;*/
 }
 
+/* puces des listes du site */
+ul {
+    list-style-type: disc; /* Assure que les puces sont visibles */
+    padding-left: 20px;
+}
+
 p{
     font-size: 20px;
 }
@@ -131,8 +137,7 @@ button {
     border: none;
     color: var(--texte);
     padding: 10px;
-    text-align: center;
-    text-decoration: none;
+    text-align: center;;
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
