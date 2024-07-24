@@ -21,9 +21,9 @@
 
 /* ********************* standard ******************* */
 body{
-    background-color: var(--background_2);
-    margin-left: 10px;
     color: var(--texte);
+    background-color: var(--color_3);
+    
 }
 
 
@@ -75,6 +75,7 @@ img{
     height: 375px;
     border-radius: 5px;
     box-shadow: 10px 5px 5px var(--color_0);
+    margin-bottom: 10px;
     /*border: thick double #32a1ce;*/
 }
 
@@ -97,7 +98,7 @@ h1{
 
 h2{
     font-size: 30px;
-    margin-bottom: 10px;
+    padding: 10px 0;
 }
 
 footer{
@@ -107,10 +108,28 @@ footer{
 }
 
 /* ******************************************* Accueil ************************************** */
+
+.premier{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    /*border: 1px solid aqua;*/
+}
+
 .image{
     float: left;
     margin: 10px 10px 10px 0;
     /*border: 2px dashed darkorchid;*/
+}
+
+.haut{
+    background: var(--color_3);
+    padding-left: 10px;
+}
+
+.equipe{
+    background: var(--color_2);
+    padding-left: 10px;
 }
 
 .equipeBis{
@@ -119,21 +138,20 @@ footer{
     display: flex;
     text-align: justify;
     align-items: center;
-    padding-right: 10px;
+    padding:  0 15px 0 10px;
     /*border: 2px solid brown;*/
 }
 
 .appel{
+    background-color: var(--color_1);
     clear: left;
-}
-
-.appel {
     text-align: center;
+    padding-left: 10px;
 }
 
 /* le bouton appel */
 button {
-    background-color:var(--background_1);
+    background-color:var(--color_0);
     border: none;
     color: var(--texte);
     padding: 10px;
