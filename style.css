@@ -10,7 +10,7 @@
     --background:#f8cd69d8;
     --background_1:#ebae08;
     --background_2:#a19d9d;
-    --nav:#a19d9d50;
+    --nav:#a19d9dd3;
     --texte: rgb(2, 2, 2);
     --color_0:#e95a5a;
     --color_1:#FFB22C;
@@ -83,6 +83,7 @@ img{
 ul {
     list-style-type: disc; /* Assure que les puces sont visibles */
     padding-left: 20px;
+    font-size: 20px;
 }
 
 p{
@@ -173,4 +174,23 @@ button {
 
 button i {
     font-size: 16px;
+}
+
+/* ************************************ Page informations ******************************** */
+.presentoire, .presentoire_2{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 10px 0;
+    /*border: 2px solid magenta;*/
+}
+
+.presentoire img{
+    width: 500px;
+    height: 550px;
+}
+
+.presentoire_2 img{
+    width: 600px;
+    height: 400px;
 }
