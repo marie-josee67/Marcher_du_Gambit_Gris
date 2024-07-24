@@ -122,14 +122,13 @@ footer{
     /*border: 2px dashed darkorchid;*/
 }
 
-.haut{
+.haut, .info, .ligne, .politique{
     background: var(--color_3);
-    padding-left: 10px;
+    padding: 0 0 10px 10px;
 }
-
-.equipe{
+.equipe, .valeur, .produit, .collecte{
     background: var(--color_2);
-    padding-left: 10px;
+    padding: 0 0 10px 10px;
 }
 
 .equipeBis{
@@ -142,11 +141,20 @@ footer{
     /*border: 2px solid brown;*/
 }
 
-.appel{
+.alpha{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.appel, .utilisation{
     background-color: var(--color_1);
     clear: left;
-    text-align: center;
-    padding-left: 10px;
+    padding: 0 0 10px 10px;
+}
+
+.protection{
+    background-color: var(--color_0);
+    padding: 0 0 10px 10px;
 }
 
 /* le bouton appel */
