@@ -221,7 +221,6 @@ button i {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-
     margin-bottom: 10px;
     /*border: 2px solid rgb(170, 109, 17);*/
 }
@@ -289,4 +288,32 @@ button i {
     padding-top: 130px;
     line-height: 42px;
     /*border: 2px solid red;*/
+}
+
+/* ****************** section 3 ******************* */
+.protection{
+    height: 500px;
+    /*border: 2px solid gold;*/
+}
+
+.protection h2{
+    margin-bottom: 10px;
+    /*border: 2px solid rgb(24, 189, 51);*/
+}
+
+/*  texte du paragraphe */
+.protection_1{
+    margin: 0 10px 0 300px;
+    padding-left: 20px;
+    padding-top: 140px;
+    height: 380px;
+    line-height: 32px; /* écart entre les lignes */
+    /*border: solid 2px blue;*/
+}
+
+.protection_2{
+    float: left;
+    line-height: 42px;
+    box-shadow: 10px 5px 5px var(--color_1);
+    border: 2px solid red;
 }
