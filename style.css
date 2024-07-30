@@ -238,3 +238,26 @@ button i {
     box-shadow: 10px 5px 5px var(--color_1);
 
 }
+
+/* ******************************************* Page légale ********************************** */
+
+/* ****************** section 1 ******************* */
+.collecte{
+    height: 500px;
+    /*border: 2px solid gold;*/
+}
+
+.collecte h2{
+    margin-bottom: 10px;
+    /*border: 2px solid plum;*/
+}
+
+.collecte_1{
+    float: left;
+    height: 400px;
+}
+
+.collecte_2{
+    margin-left: 350px;
+    /*border: 2px solid red;*/
+}
