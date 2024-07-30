@@ -259,5 +259,34 @@ button i {
 
 .collecte_2{
     margin-left: 350px;
+    line-height: 42px;
+    /*border: 2px solid red;*/
+}
+
+/* ****************** section 2 ******************* */
+.utilisation{
+    height: 490px;
+    /*border: 2px solid gold;*/
+}
+
+.utilisation h2{
+    text-align: center;
+    /*border: 2px solid plum;*/
+}
+
+.utilisateur_1{
+    float:right;
+    margin-right: 10px;
+    height: 400px;
+}
+
+.utilisateur_2{
+    /*display: list-item;*/
+    float: right;
+    width: 25%;
+    align-items: center;
+    height: 390px;
+    padding-top: 130px;
+    line-height: 42px;
     /*border: 2px solid red;*/
 }
