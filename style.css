@@ -71,6 +71,80 @@ main{
     padding-top:50px;
 }
 
+/* ******************** le burger ************************** */ 
+
+/* Style pour le bouton burger */
+.burger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+    z-index: 10; /* Assurez-vous que le bouton reste au-dessus du menu */
+}
+
+.burger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    transition: all 0.3s ease;
+}
+
+/* Styles pour transformer le burger en croix */
+.burger.active span:nth-child(1) {
+    transform: rotate(45deg);
+    transform-origin: 5px 5px;
+}
+
+.burger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.burger.active span:nth-child(3) {
+    transform: rotate(-45deg);
+    transform-origin: 5px -5px;
+}
+
+/* Cacher le menu mobile par défaut */
+.mobile-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.mobile-menu a {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.mobile-menu a:last-child {
+    border-bottom: none;
+}
+
+/* Afficher le bouton burger et cacher le menu normal sur les petits écrans */
+@media (max-width: 768px) {
+    .burger {
+        display: flex;
+    }
+
+    .page {
+        display: none;
+    }
+
+    .mobile-menu.show {
+        display: flex;
+    }
+}
+
+
+
+
 /* toute les images du site */
 img{
     width: 300px;
