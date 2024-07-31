@@ -28,7 +28,6 @@ body{
     
 }
 
-
 /* la barre de navigation entière */
 nav{
     display: flex;
@@ -42,7 +41,6 @@ nav{
     color: var(--color_3);
     /*border: 2px solid orangered;*/
 }
-
 
 /* la barre de navigation page */
 .page{
