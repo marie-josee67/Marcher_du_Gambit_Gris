@@ -14,8 +14,10 @@
     --texte: rgb(2, 2, 2);
     --color_0:#e95a5a;
     --color_1:#FFB22C;
-    --color_2:#FFDE4D;
-    --color_3: #F3FEB8;
+    --color_2:#fcf946;
+    --color_2_black: #cac709;
+    --color_3:#F3FEB8 ;
+    --color_3_black:#e0bc1a;
     --color_4:black;
 }
 
@@ -93,7 +95,6 @@ p{
 h1{
     font-size: 40px;
     text-align: center;
-    color: var(--color_1);
     margin-bottom: 10px;
 }
 
